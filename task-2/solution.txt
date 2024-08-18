@@ -1,0 +1,23 @@
+git config --global user.name Yusuf-M2255
+git config --global user.email yusufmahmud2005@gmail.com
+git clone https://github.com/Yusuf-M2255/Linux-OSC-Training.git
+cd Linux-OSC-Training
+mkdir task-2
+git add task-2
+cd task-2
+touch greeting.txt
+nano greeting.txt
+git commit
+git branch intro
+git checkout intro
+cd ..
+git add task-2
+cd task-2
+nano greeting.txt
+git commit
+git checkout main
+git merge intro
+git tag -a v1
+cd ..
+git push -u origin main
+
