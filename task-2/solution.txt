@@ -14,7 +14,7 @@ cd ..
 git add task-2
 cd task-2
 nano greeting.txt
-git commit "Added I love Git"
+git commit -m "Added I love Git"
 git checkout main
 git merge intro
 git tag -a v1
