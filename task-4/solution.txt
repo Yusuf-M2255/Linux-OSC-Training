@@ -9,7 +9,7 @@ sudo touch sample.txt
 sudo chmod 640 sample.txt
 sudo chown newuser sample.txt
 sudo chgrp newgroup sample.txt
-sudo groupdel -rf newgroup
+sudo groupdel newgroup
 sudo userdel -rf newuser
 sudo apt update
 sudo apt install lolcat
